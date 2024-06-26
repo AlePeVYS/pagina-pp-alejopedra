@@ -1,0 +1,355 @@
+/* generales */
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+
+/* cabeza de pagina */
+
+header{
+    display: flex;
+    background-color: #b29079;
+    
+    
+    
+}
+
+
+header img {
+    width: 110px;
+    margin: 10px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 2px #866d5c;
+    
+
+}
+
+.logohover:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.navegacion{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color:#816756;
+    margin-left: 2%;
+
+}
+
+.navegacion a{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 50px;
+    color: #ece5d5;
+    height: 30px;
+    padding: 6px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: fit-content;
+    
+    
+}
+
+.navegacion a:hover{
+    color: #251f1b;
+    box-shadow: 3px 3px 4px #2b231d;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+
+}
+
+/* pagina principal */
+
+.pagina-principal {
+    background-color: #d1af96 ;
+    color: #302823;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.pagina-principal img {
+    margin: 10px 10px 10px;
+
+}
+
+.imagenes-principal {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imagenes-principal img{
+    width: 20%;
+    border-radius: 4px;
+}
+
+.imagenes-principal h3{
+    margin: 10px;
+    text-shadow: 2px 2px 0px#9c9088;
+}
+
+/* cuerpo de pagina */
+
+.contenedor-productos{
+    background-image: url(../assets/lanas.jpg);
+    background-position:center;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.contenedor-productos img {
+    width: fit-content;
+}
+
+/*  productos  */
+
+.lanas-venta-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lanas-contenedor img {
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #64574c;
+    max-height: 300px;
+
+}
+
+.prod-individual-contenedor {
+    display: flex;
+    
+}
+
+.lana img {
+    width: 400px;
+    margin: 50px;
+    border-radius: 3px;
+
+}
+
+.lanas-contenedor img:hover,    
+.lanas-contenedor-fibra2:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.lana-descripcion {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a78671;
+    text-shadow: 2px 2px 0px black;
+    
+    
+    
+}
+
+.boton {
+    background-color:#967966;
+    padding: 10px;
+    padding-inline: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: #3f332a;
+}
+
+.boton:hover {
+    background-color:#5f4c40 ;
+    transform: scale(1.1);
+}
+
+/*  formulario  */
+
+.contenedor-formulario{
+    margin-top: 30px;
+    
+    
+}
+
+.formulario {
+    width: 70%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.campo {
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.campo select { 
+    padding: 10px; 
+    width: 102.3%;  
+    border: 1px solid #8d7c71; 
+    border-radius: 6px; 
+    color: gray;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo label {
+    font-size: 20px; 
+    margin-bottom: 5px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo input {
+    font-size: 20px; 
+    padding: 10px; 
+    width: 100%;  
+    border: 1px solid #8d7c71; 
+    border-radius: 6px; 
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo textarea{
+    font-size: 23px; 
+    padding: 20px 10px ; 
+    width: 100%;  
+    border: 1px solid #8d7c71; 
+    border-radius: 6px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo input[type="submit"] {
+    font-size: 20px; 
+    padding: 10px 20px; 
+    margin-left: 5%;
+    width: 40%; 
+    align-self: center; 
+    background-color: #816756; 
+    color: #ecdfd6; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo input[type="submit"]:hover {
+    background-color: #554439; 
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: #b29079;
+    justify-content: space-between;
+    position: relative;
+}
+
+.instagram {
+    display: flex;
+    text-align: center;
+    
+}
+
+.instagram a {
+    text-decoration: none;
+    color:#332821;
+    margin-left: 5px;
+}
+
+.instagram a:hover {
+    color: #ffeadc;
+}
+
+.autor {
+    display: flex;
+    text-decoration: none;
+    color:#332821;
+    align-items:end;
+}
+
+.autor p{
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 3%;
+    margin-left: 2px;
+}
+
+/* configuracion responsive */
+
+@media screen and (max-width: 910px) {
+    header{
+        justify-content: space-between;
+        padding-bottom: 5px;
+    }
+    header img {
+        width: 120px ;
+    }
+    .navegacion{
+        flex-direction: column;
+        width:fit-content;
+        margin-right: 5%;
+    }
+    .navegacion a {
+        margin: 0;
+        width: fit-content;
+    }
+
+    .prod-individual-contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+    .lana img {
+        margin-bottom: 0;
+    }
+    .lana-descripcion {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .imagenes-principal {
+        flex-direction: column;
+    }
+    .imagenes-principal img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .lanas-venta-contenedor {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    .lanas-contenedor {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    footer {
+        flex-direction: column;
+    }
+}
