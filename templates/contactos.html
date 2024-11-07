@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Lo De Maria Atelier</title>
+    <script defer src="../js/validacionformulario.js"></script>
 </head>
 <body>
     <header>
-        <a href="../utilities/index.html" class="logohover">
+        <a href="../index.html" class="logohover">
             <img src="../assets/logo-fixed.png" alt="logo">
         </a>
         <div class="navegacion">
-            <a href="../templates/yarnyregia.html">YARN ART & REGIA</a>
-            <a href="../templates/cencherle.html">CENCHERLE</a>
-            <a href="../templates/fibrasu.html">FIBRAS URBANAS</a>
+            <a href="../templates/yarnyregia.html?id=1">YARN ART & REGIA</a>
+            <a href="../templates/cencherle.html?id=2">CENCHERLE</a>
+            <a href="../templates/fibrasu.html?id=3">FIBRAS URBANAS</a>
+            <a class="hover-nav" href="../templates/contactos.html">CONTACTOS</a>
 
         </div>
 
@@ -25,35 +27,35 @@
     <main class="contenedor-productos">
 
         <div class="contenedor-formulario">
-            <form action="" class="formulario">
+            <form action="" class="formulario" onsubmit="return validarFormulario()">
 
                 <div class="campo">
                     <label for="nombre">Nombre</label>
-                    <input type="text" required name="nombre" placeholder="Coloque su nombre">
+                    <input type="text" required id="nombre" name="nombre" placeholder="Coloque su nombre">
 
                 </div>
 
                 <div class="campo">
                     <label for="apellido">Apellido</label>
-                    <input type="text" required name="apellido" placeholder="Coloque su apellido">
+                    <input type="text" required id="apellido" name="apellido" placeholder="Coloque su apellido">
 
                 </div>
 
                 <div class="campo">
                     <label for="Nacimiento">Fecha de nacimiento</label>
-                    <input type="date" required name="Nacimiento" placeholder="Coloque fecha de nacimiento">
+                    <input type="date" required id="Nacimiento" name="Nacimiento" placeholder="Coloque fecha de nacimiento">
                 </div>
                 
 
                 <div class="campo">
                     <label for="correo">Correo</label>
-                    <input type="email" required name="correo" placeholder="Correo">
+                    <input type="email" required id="correo" name="correo" placeholder="Correo">
                     
                 </div>
 
                 <div class="campo">
                     <label for="tecnica">¿Qué técnica te interesa?</label>
-                    <select name="tecnica" required>
+                    <select id="tecnica" name="tecnica" required>
                         <option value="">Seleccione una opción</option>
                         <option value="opcion 1">Dos Agujas</option>
                         <option value="opcion 2">Crochet</option>
@@ -65,7 +67,7 @@
 
                 <div class="campo">
                     <label for="consulta">Consulta</label>
-                    <textarea placeholder="Descripcion"></textarea>
+                    <textarea id="consulta" placeholder="Descripcion"></textarea>
 
                 </div>
 
@@ -98,13 +100,19 @@
     </div>
 
     <div class="autor">
-        <div>
+        <div class="logo-texto">
             <img src="../assets/bxl-visual-studio.svg" alt="logo visual studio">
-        </div>
-        
-        <div>
             <p>página creada para practicas profesionales</p>
         </div>
+
+        <div>
+            Luján, Mendoza, Argentina
+        </div>
+
+        <div>
+            <p>desde 2015</p>
+        </div>
+
     </div>
     
     

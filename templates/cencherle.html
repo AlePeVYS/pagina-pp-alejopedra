@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Lo De Maria Atelier</title>
+    <script defer src="../js/filtro2.js"></script>
 </head>
 <body>
     <header>
-        <a href="../utilities/index.html" class="logohover">
+        <a href="../index.html" class="logohover">
             <img src="../assets/logo-fixed.png" alt="logo">
         </a>
         <div class="navegacion">
-            <a href="../templates/yarnyregia.html">YARN ART & REGIA</a>
-            <a href="../templates/fibrasu.html">FIBRAS URBANAS</a>
+            <a href="../templates/yarnyregia.html?id=1">YARN ART & REGIA</a>
+            <a class="hover-nav" href="../templates/cencherle.html?id=2">CENCHERLE</a>
+            <a href="../templates/fibrasu.html?id=3">FIBRAS URBANAS</a>
             <a href="../templates/contactos.html">CONTACTOS</a>
 
         </div>
@@ -23,11 +25,24 @@
     </header>
 
     <main class="contenedor-productos">
+
+        <div class="filtro">
+            <label for="filtro-precio">Filtrar por precio:</label>
+         <select id="filtro-precio">
+          <option value="todos">Todos</option>
+          <option value="asc">Bajo a Alto</option>
+          <option value="des">Alto a Bajo</option>
+         </select>
+        </div>
+
+        <div class="lanas-venta-contenedor" id="productos-lista">
+
+        </div>
         
-        <div class="lanas-venta-contenedor">
+        <!-- <div class="lanas-venta-contenedor">
 
             <div class="lanas-contenedor">
-                <a href="../productos-cencherle/prod-cen1.html">
+                <a href="../productos-cencherle/prod-cen1.html?id=4">
                     <img src="../assets/cencherle1.jfif" alt="muetra cencherle">
                 </a>
 
@@ -35,20 +50,20 @@
             </div>
 
             <div class="lanas-contenedor">
-                <a href="../productos-cencherle/prod-cen2.html">
+                <a href="../productos-cencherle/prod-cen2.html?id=5">
                     <img src="../assets/cencherle2.jfif" alt="muestra cencherle">
                 </a>
 
             </div>
 
             <div class="lanas-contenedor">
-                <a href="../productos-cencherle/prod-cen3.html">
+                <a href="../productos-cencherle/prod-cen3.html?id=6">
                     <img src="../assets/cencherle3.jfif" alt="muestra cencherle">
                 </a>
 
             </div>
 
-        </div>
+        </div> -->
 
     </main>
 
@@ -69,13 +84,19 @@
         </div>
     
         <div class="autor">
-            <div>
+            <div class="logo-texto">
                 <img src="../assets/bxl-visual-studio.svg" alt="logo visual studio">
-            </div>
-            
-            <div>
                 <p>página creada para practicas profesionales</p>
             </div>
+
+            <div>
+                Luján, Mendoza, Argentina
+            </div>
+
+            <div>
+                <p>desde 2015</p>
+            </div>
+
         </div>
         
         

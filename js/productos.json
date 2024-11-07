@@ -1,0 +1,69 @@
+[
+    {"id": 1,
+     "imagen":"../assets/yarnart1.jfif",
+     "material": "Hilado 53% Algodón - 43% PAC - 4% Metallic Polyester",
+      "peso": "1000m/260g",
+      "recomendacion": "Se recomienda usar aguja de 3mm/4mm",
+      "precio": "$15.500,00" },
+
+    {"id": 2,
+     "imagen":"../assets/yarnart2.jfif",
+     "material": "Hilado 55% Algodón - 45% PAC súper suave al tacto",
+      "peso": "100m/250g",
+      "recomendacion": "Se recomienda usar aguja de 2,5mm/3.5mm",
+      "precio": "$14.500,00" },
+
+    {"id": 3,
+     "imagen":"../assets/yarnart3.jfif",
+      "material": "Hilado 53% Algodón - 43% PAC - 4% Metallic Polyester",
+       "peso": "1000m/260g",
+       "recomendacion": "Se recomienda usar aguja de 3mm/4mm",
+       "precio": "$15.500,00" },
+
+    {"id": 4,
+        "imagen":"../assets/cencherle1.jfif",
+      "material": "100% oveja cruza fina suave al tacto y natural",
+       "peso": "Grosor Sport - 300m/100g",
+       "recomendacion": "Se recomienda usar aguja de 4mm/4.5mm",
+       "precio": "$17.500,00" },
+
+    {"id": 5,
+       "imagen":"../assets/cencherle2.jfif",
+     "material": "Hilado Merino 18 Micras ultra sedoso",
+      "peso": "Grosor Worsted - 180m/100g",
+      "recomendacion": "Se recomienda usar aguja de 6mm",
+      "precio": "$15.000,00" },
+
+    {"id": 6,
+       "imagen":"../assets/cencherle3.jfif",
+     "material": "Hilado Mecha de 2 Cabos - 100% oveja cruza fina",
+      "peso": "Grosor Sport - 300m/100g",
+      "recomendacion": "Se recomienda usar aguja de 4mm/4.5mm",
+      "precio": "$17.500,00" },
+
+    {"id": 7,
+      "imagen":"../assets/fibras1.jfif",
+    "material": "Hilado Merino Súper Wash - 100% lana merino",
+     "peso": "Grosor DK - 200m/100g",
+     "recomendacion": "Se recomienda usar aguja de 3.5mm/4mm",
+     "precio": "$18.900,00" },
+
+    {"id": 8,
+     "imagen":"../assets/fibras2.jfif",
+   "material": "Hilado Mezcla Merino y Seda - 80% Merino - 20% Seda",
+    "peso": "Grosor Fingering - 400m/100g",
+    "recomendacion": "Se recomienda usar aguja de 2.5mm/3mm",
+    "precio": "$20.500,00" },
+
+    {"id": 9,
+       "imagen":"../assets/fibras3.jfif",
+     "material": "Hilado Mohair y Seda - 70% Mohair - 30% Seda",
+      "peso": "Grosor Lace - 450m/50g",
+      "recomendacion": "Se recomienda usar aguja de 3mm/3.5mm",
+      "precio": "$22.000,00" }
+]
+
+
+
+
+
